@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+Body {
+    background: #777;
+    
+}
+
+
+
+header {
+    background-color:#dbdbdb;
+    width: 960px;
+    color: rgb(118, 114, 114);
+    padding: 15px;
+    float: center;
+}
+
+nav {
+    background: #ebebeb;
+}
+
+
+section {
+    background: #ebebeb;
+    width: 60%;
+    float: left;
+    padding: 15px;
+}
+
+aside {
+    background: #ebebeb;
+    width: 40%;
+}
+
+article {
+    background: #ebebeb;
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    background: #ebebeb;
+}
+
+
+
+p {
+
+}
