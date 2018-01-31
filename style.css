@@ -2,32 +2,42 @@
 
 * {
     box-sizing: border-box;
+    margin: 10px;
     text-align: center;
     width: 960px;
-    color: #233;
+    background: #777;
     
 }
 
 Body {
     padding: 0;
-    margin: 0;
+    /* margin: 15px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     line-height: 30px;
+    position: relative;
+   
     
 }
 
 
 header {
-   padding: 20px;
-   margin: 15px;
-   background: #ebebeb
+   padding: 30px;
+   /* margin: 15px; */
+   float: left;
+   background: #ebebeb;
+   width: 945px;
+   
+   
+    
 }
 
 nav {
-    padding: 20px;
-    margin: 15px;
+    padding: 30px;
+    /* margin: 15px; */
+    float: left;
     background: #ebebeb;
+    width: 945px;
 }
 
 #middlebox {
@@ -37,28 +47,30 @@ nav {
 
 section {
     background: #ebebeb;
-    width: 55%;
+    width: 495px;
     float: left;
-    margin: 5px;
+    /* margin: 15px; */
     padding: 5px;
     height: 300px;
+    
    
 }
 
 aside {
     background: #ebebeb;
     float: left;
-    width: 40%;
-    margin: 5px;
+    width: 415px;
+    /* margin: 15px; */
     padding: 5px;
     height: 300px;
     /* overflow: align-self: auto; */
     
     
+    
 }
 
     article { 
-        background: #610c0c;
+        background: #777;
         width: 90%;
         height: 60%;
         float: left;
@@ -76,7 +88,7 @@ aside {
 
     .headerslisted {
         position: relative;
-        background: blue;
+        background: #ebebeb;
         height: 25%;
         margin-top: 15px;
         margin-left: 15px;
@@ -87,7 +99,7 @@ aside {
 
     p  {
         position: relative;
-        background: blue;
+        background: #ebebeb;
         height: 25%;
         margin-top: 15px;
         margin-left: 15px;
@@ -108,12 +120,14 @@ aside {
 footer {
     
     color: #233;
+    /* margin: 15px; */
     height: 100px;
     padding: 30px;
-    width: 100%;
+    width: 945px;
     float: center;
     background: #ebebeb;
     clear: both;
+    
     
 }
 
